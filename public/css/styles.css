@@ -1,0 +1,150 @@
+h1,h2,h3,h4,h5,h6, header a {
+ font-family: 'Raleway', Helvetica, Arial, sans-serif;
+ font-weight: 600;
+}
+
+header .navbar-brand, .info-wrapper a {
+  font-family: 'Allan', Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  color: #FFF;
+}
+
+.hero-wrapper h1 {
+  font-size: 50px;
+}
+
+.features h2 {
+  font-size: 35px;
+}
+
+.features i {
+  transition: all 1s;
+}
+
+.features i:hover {
+  color: #00EE76;
+  transform: scale(1.5);
+}
+
+p a {
+ font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
+ font-size: 16px;
+ line-height: 25px;
+ }
+
+.hero-wrapper {
+  background: url(wufer.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 680px;
+  width: 100%;
+  margin-top: 0;
+}
+
+.btn-trans {
+  background: #0eb85a;
+  border: 0;
+  border-radius: 100%;
+  border: solid 1px #444;
+  font-size: 20px;
+  color: #FFF;
+  display: inline-block;
+  line-height: 1.3;
+  height: 100px;
+  width: 100px;
+  margin: 20px 20px 0 0;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  transition: all 1s;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn-trans:hover {
+  background: #00EE76;
+  border: none;
+  color: #FFF;
+}
+
+.btn-trans:hover .top {
+  top: -100px;
+}
+
+.btn-trans:hover .bottom {
+  top: 15px;
+}
+
+.content {
+  position: absolute;
+  display: block;
+  width: 100%;
+  text-align: center;
+  transition: all 0.6s;
+}
+
+.top {
+  top: 15px;
+}
+
+.bottom {
+  top: 100px;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border: none;
+}
+
+#nav-top,footer {
+  background: rgba(0, 0, 0, 0.6);
+  transition: all 0.5s;
+}
+#nav-top:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+footer:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+footer a, ul {
+  color: #888;
+}
+footer p, footer h4, footerwuf {
+  color: #aaa;
+}
+
+.info-wrapper {
+  margin: 150px 0 0 50px;
+}
+
+.info-wrapper h2 {
+  font-size: 40px;
+}
+
+.features {
+  margin: 100px 0;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    color: #FFF;
+    font-size: 60px !important;
+    text-align: center;
+  }
+  .hero-wrapper p {
+    font-size: 20px !important;
+    text-align: center;
+    background-color: #FFF;
+    border-bottom: solid 4px #777;
+  }
+  .btn-trans {
+    margin: 50px auto;
+    display: block;
+  }
+}
